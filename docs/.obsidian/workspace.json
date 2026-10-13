@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Contexto",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,8 +79,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -189,8 +188,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "254ea5e0515df694",
+  "active": "6a5a7da4e1b343dd",
   "lastOpenFiles": [
+    "Decisoes.md",
     "Top 4.md"
   ]
 }
