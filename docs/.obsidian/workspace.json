@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Top 4.md",
+                "file": "ADR-0002.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Top 4"
+              "title": "ADR-0002"
             }
           }
         ]
@@ -190,7 +190,11 @@
   },
   "active": "6a5a7da4e1b343dd",
   "lastOpenFiles": [
+    "ADR-0002.md",
     "Decisoes.md",
-    "Top 4.md"
+    "modelo.md",
+    "Top 4.md",
+    "ADR-0003.md",
+    "ADR-0001.md"
   ]
 }
