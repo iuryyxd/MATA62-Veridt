@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "494621460f54f0cb",
@@ -190,6 +191,7 @@
   },
   "active": "6a5a7da4e1b343dd",
   "lastOpenFiles": [
+    "file:/home/dante/Downloads/especificacao_linguagem.md",
     "ADR-0002.md",
     "Decisoes.md",
     "modelo.md",
