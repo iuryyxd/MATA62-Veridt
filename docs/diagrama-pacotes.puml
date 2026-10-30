@@ -1,0 +1,37 @@
+@startuml diagrama-pacotes
+skinparam linetype ortho
+
+package "Identidade e Acesso" {
+  [Authentication]
+}
+
+package "Externo" {
+  [NotificationService]
+  [FileStorageService]
+}
+
+package "Gestão de Créditos" {
+  [PaymentService]
+  [CreditService]
+}
+
+package "Captura de Conteúdo" {
+  [CaptureService]
+}
+
+package "Gestão de Registros" {
+  [RecordsService]
+}
+
+[Authentication] .> [NotificationService]
+[NotificationService] -[hidden]> [FileStorageService]
+
+[PaymentService] .> [CreditService]
+[CreditService] <. [CaptureService]
+[CaptureService] .> [RecordsService]
+
+[NotificationService] <.. [CreditService]
+[NotificationService] <.. [CaptureService]
+[FileStorageService] <.. [CaptureService]
+[FileStorageService] <.. [RecordsService]
+@enduml
